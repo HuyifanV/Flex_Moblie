@@ -1,0 +1,292 @@
+body{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+header,footer,section{
+	height: 3rem;
+	width: 100%;
+	border: 1px solid black;
+}
+header{
+	display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.menu,.pc,.title{
+	border: 0px solid red;	
+	
+}
+.menu,.pc{
+	width: 3rem;
+}
+.menu{
+	background: url(../img/menu.png) no-repeat;
+	background-size: 2.9rem 2.9rem;
+}
+.title h1{
+	font-size: 1.5rem;
+}
+.pc{
+	background: url(../img/pc.png)no-repeat;
+	background-size: 2.9rem 2.9rem;
+}
+section{
+	height: auto;
+}
+.sign-login{
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    border: 0px solid black;
+    height: 3.5rem;
+    width: 100%;
+}
+.login{
+	border: 0px solid red;
+	height: 3.3rem;
+	width: 50%;
+	background: url(../img/sign.png) no-repeat;
+	background-size: 3rem 3rem;
+	padding-left: 3rem;
+}
+.sign{
+	border: 2px solid white;
+	height: 3.3rem;
+	width: 50%;
+	background: url(../img/login.png) no-repeat;
+	background-size: 3rem 3rem;
+	padding-left: 3rem;
+	border-left-color: #757575;
+}
+
+.login-text{
+	border: 0px solid red;
+	color: #757575;
+	font-size: 3rem;
+}
+.sign-text{
+	border: 0px solid red;
+	color: #757575;
+	font-size: 3rem;
+}
+ @media only screen and (min-width: 360px){
+ 	.login-text{
+ 		font-size: 1.8rem;
+ 		padding-top: 0.5rem;		
+ 	}
+ 	.sign-text{
+ 		font-size: 1.8rem;
+ 		padding-top: 0.5rem;
+ 	}
+ 	#content-box ul li a{
+ 		font-size: 1.2rem;
+ 	}
+ 	#content-box ul li p{
+ 		font-size: 0.64rem;
+ 	}
+ 	#content-box ul li img{
+ 		height: 5rem;
+ 	}
+ }
+ @media only screen and (min-width: 320px){
+ 	.login-text{
+ 		font-size: 1.5rem;
+ 		padding-top: 0.5rem;
+ 	}
+ 	.sign-text{
+ 		font-size: 1.5rem;
+ 		padding-top: 0.5rem;
+ 	}
+ 	#content-box ul li a{
+ 		font-size: 1.0rem;
+ 	}
+ 	#content-box ul li p{
+ 		font-size: 0.64rem;
+ 	}
+ 	#content-box ul li img{
+ 		height: 3rem;
+ 	}
+ }
+ @media only screen and (min-width: 760px) {
+ 	#content-box ul li a{
+ 		font-size: 1.0rem;
+ 	}
+ 	#content-box ul li p{
+ 		font-size: 1rem;
+ 	}
+ 	#content-box ul li img{
+ 		height: 5rem;
+ 	}
+ 	
+ }
+.carousel {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border: 0px solid black;
+}
+ 
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    border: 0px solid red;
+}  
+.swiper-slide img{
+	width: 100%;
+	height: 300px;
+	margin-top: 0px;
+}
+.hot{
+	border: 0px solid red;
+	padding: 0;	
+}
+.hot-title{
+	display: flex;
+	justify-content: space-between;
+	border: 0px solid black;
+	height: 2rem;
+}
+.hot-title h2{
+	border: 0px solid red;
+	display: inline-block;
+	height: 2rem;
+	margin-top: 0px;
+}
+.hot-title span {	
+	border: 0px solid red;
+	height: 2rem;
+	padding: 0;
+}
+.hot-title span a img{
+	width: 2rem;
+	height: 2rem;
+}
+.hot-slidebox{
+	border: 0px solid red;
+	height: auto;
+}
+.btn{
+	border: 0px solid blue;
+	height: 2rem;
+}
+ul{
+	list-style: none;
+}
+#list-title {
+            height: 56px;
+            margin: 0;
+            list-style-type: none;
+            padding-left: 0;
+            width: 100%;
+}
+
+.list-item {
+            display: inline-block;
+	        border: 1px solid black;
+	        width: 24.94%;
+        	height: 2rem;
+        	margin-right: -6px;
+        	text-align: center;
+}
+
+#content-box {
+            position: relative;
+            clear: both;                  
+            border: 0px solid red;
+            height: 235px;
+        }
+
+.contents {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            margin: 0;
+            border: 1px solid #000;
+           
+        }
+
+.contents-checked {
+            z-index: 1;
+            opacity: 1;
+            visibility: visible;
+        }
+ul{
+	list-style: none;
+	border: 0px solid black;
+	padding: 0;
+	margin-top: 0px;
+}
+li{
+	border-top: 1px solid black;
+	
+}
+
+a:link{
+	text-decoration: none;
+}
+a{
+	color: #000000;
+	border: 0px solid black;
+	font-size: 1.5rem;
+}
+.clearfix{
+	padding: 0;
+	
+}
+.clearfix img{
+	float: left;
+	width: 25%;
+	height: 7rem;
+}
+.clearfix p{
+	border: 0px solid green;
+	margin-top: 0px;
+	color: #757575;
+	height: 7rem;
+	font-size: 1rem;
+}
+	
+.footer{
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    border: 0px solid black;
+    height: 3rem;
+    background-color: #000000;
+}
+.footer01{
+	border: 0px solid red;
+	height: 3rem;
+	width: 50%;
+	background: url(../img/pc.png) no-repeat;
+	background-size: 2rem 2rem;
+	padding-left: 3rem;
+}
+.footer02{
+	border: 2px solid white;
+	height: 3rem;
+	width: 50%;
+	border-left-color: #757575;
+	background:url(../img/phone.png) no-repeat;
+	background-size: 2rem 2rem;
+	padding-left: 3rem;
+}
+
+.footer01-text{
+	border: 0px solid red;
+	color: #757575;
+	font-size: 1rem;
+	line-height: 3rem;
+}
+.footer02-text{
+	border: 0px solid red;
+	color: #757575;
+	font-size: 1rem;
+	line-height: 3rem;
+}
